@@ -66,6 +66,5 @@ function rss_feed( $url, $new ) {
     } else {
         $output .= '<div>RSS fetch failed - RSS url or feed may be invalid</div>';
     }
-
         return $output;
-    }
+}
