@@ -1,6 +1,6 @@
 # rssFetchXML
 App:       rssFetchXML
-Version:   1.0
+Version:   1.1
 Author:    MT Jordan <mtjo62@gmail.com>
 Copyright: 2025
 License:   MIT License
