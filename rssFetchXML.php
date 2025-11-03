@@ -4,7 +4,7 @@
  * RSS aggregator utilizing libxml and cURL
  *
  * @package rssFetchXML
- * @version 1.0
+ * @version 1.1
  * @author MT Jordan <mtjo62@gmail.com>
  * @copyright 2025
  * @license MIT
@@ -109,4 +109,5 @@ class rssFetchXML
 }
 /* EOF rssFetchXML.php */
 /* Location: ./rssFetchXML.php */
+
 
