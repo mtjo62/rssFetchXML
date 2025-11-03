@@ -88,6 +88,7 @@ class rssFetchXML
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_USERAGENT, @$_SERVER["HTTP_USER_AGENT"]);
         curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($curl, CURLOPT_ENCODING, "utf-8");
         $curl_result = curl_exec($curl);
         $curl_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
         
@@ -108,3 +109,4 @@ class rssFetchXML
 }
 /* EOF rssFetchXML.php */
 /* Location: ./rssFetchXML.php */
+
